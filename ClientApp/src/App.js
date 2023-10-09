@@ -1,6 +1,6 @@
 import { Route, Routes, useNavigate } from "react-router-dom";
-import { LoginForm } from "./components/LoginForm/LoginForm";
 import "./custom.css";
+import { RegisterPage } from "./Pages/RegisterPage/RegisterPage";
 
 export default function App() {
   const navigate = useNavigate();
@@ -15,7 +15,7 @@ export default function App() {
         path="/"
         element={<button onClick={handleClick}>Register!</button>}
       />
-      <Route path="/sign-up" element={<LoginForm />} />
+      <Route path="/sign-up" element={<RegisterPage />} />
     </Routes>
   );
 }

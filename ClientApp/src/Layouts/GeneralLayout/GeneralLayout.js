@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Wrapper, Nav, Left, Right, Footer } from "./styles";
 export const GeneralLayout = ({ nav, left, right, footer }) => {
   return (
     <>

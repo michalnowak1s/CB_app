@@ -8,7 +8,7 @@ import {
 } from "./styles";
 const Database = [];
 
-export const LoginForm = () => {
+export const RegisterForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = new FormData(e.target);
